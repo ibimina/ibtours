@@ -24,4 +24,4 @@ const db = getFirestore();
 
 const timeStamp = Timestamp;
 
-return { db, auth, timeStamp };
+export { db, auth, timeStamp };
